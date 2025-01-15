@@ -1,9 +1,7 @@
 To Install and Configure all dependencies:
 ```cmd
 pip install poetry
-```
-- clone the repo.
-- Install dependencies.
-```
+git clone alanrios2001/EngenhariaSoftware1
+cd EngenhariaSoftware1
 poetry install
 ```
