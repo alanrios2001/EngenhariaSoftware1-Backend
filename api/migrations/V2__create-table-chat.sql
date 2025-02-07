@@ -1,0 +1,7 @@
+CREATE TABLE chat (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    token VARCHAR(500) NOT NULL UNIQUE,
+    created_at DATETIME NOT NULL,
+    updated_at DATETIME NOT NULL,
+    deleted_at DATETIME
+);

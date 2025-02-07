@@ -1,0 +1,5 @@
+CREATE TABLE token(
+  token VARCHAR(500) NOT NULL PRIMARY KEY,
+  chat_id INT NOT NULL UNIQUE,
+  FOREIGN KEY (chat_id) REFERENCES chat(id)
+);
