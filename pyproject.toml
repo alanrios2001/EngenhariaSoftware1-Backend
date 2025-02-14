@@ -11,6 +11,9 @@ openai = "^1.59.7"
 dynaconf = "^3.2.6"
 sqlalchemy = "^2.0.37"
 flask = "^3.1.0"
+fastapi = "^0.115.8"
+pytz = "^2025.1"
+sqlmodel = "^0.0.22"
 
 
 [build-system]
